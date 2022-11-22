@@ -1,0 +1,42 @@
+/* base setting */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: #383838;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+/* semantic setting  */
+section > article {
+  height: 100vh;
+}
+
+/* full-page */
+.full-page {
+  position: absolute;
+  width: 100%;
+}
+.full-page article[data-page="1"] {
+  background-color: red;
+}
+.full-page article[data-page="2"] {
+  background-color: blue;
+}
+.full-page article[data-page="3"] {
+  background-color: green;
+}
+.full-page article[data-page="4"] {
+  background-color: yellow;
+}
+.full-page article[data-page="5"] {
+  background-color: orange;
+}
